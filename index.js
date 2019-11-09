@@ -10,6 +10,6 @@ function mapToNegativize(sourceArray) {
 function mapToNoChange(sourceArray) {
   let array = []
   for (let i = 0; i < sourceArray.length; i++) {
-    array.push([1])
+     array.push(sourceArray[i])
   }
 }
