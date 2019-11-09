@@ -12,4 +12,5 @@ function mapToNoChange(sourceArray) {
   for (let i = 0; i < sourceArray.length; i++) {
      array.push(sourceArray[i])
   }
+  return array
 }
