@@ -32,3 +32,5 @@ function mapToSquare(sourceArray) {
   }
   return array
 }
+
+
