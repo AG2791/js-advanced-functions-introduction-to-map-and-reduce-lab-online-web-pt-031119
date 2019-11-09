@@ -20,7 +20,7 @@ function mapToNoChange(sourceArray) {
 function mapToDouble(sourceArray) {
   let array = []
   for (let i = 0; i < sourceArray.length; i++ ) {
-    array.push(2 *  array[i])
+    array.push(2 *  sourceArray[i])
   }
   return array
 }
