@@ -7,4 +7,3 @@ function mapToNegativize(sourceArray) {
   return array
 }
 
-function mapToNoc
