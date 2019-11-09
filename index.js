@@ -15,4 +15,18 @@ function mapToNoChange(sourceArray) {
   return array
 }
 
-function map
+function mapToDouble(sourceArray) {
+  let array = []
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    r.push(2 *  array[i])
+  }
+  return array
+}
+
+function mapToSquare(src) {
+  let array = []
+  for (let i = 0; i < array.length; i++ ) {
+    r.push(sourceArray[i] * sourceArray[i])
+  }
+  return array
+}
