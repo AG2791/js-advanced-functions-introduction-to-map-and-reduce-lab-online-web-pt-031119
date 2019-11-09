@@ -14,3 +14,5 @@ function mapToNoChange(sourceArray) {
   }
   return array
 }
+
+function map
