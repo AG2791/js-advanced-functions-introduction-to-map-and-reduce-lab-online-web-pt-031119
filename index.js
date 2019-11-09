@@ -43,16 +43,16 @@ function reduceToTotal(sourceArray, startingPoint=0) {
   return total
 }
 
-function reduceToAllTrue(src) {
-  for (let i = 0; i < src.length; i++ ) {
-    if (!src[i]) return false
+function reduceToAllTrue(sourceArray) {
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    if (!sourceArray[i]) return false
   }
   return true
 }
 
-function reduceToAnyTrue(src) {
-  for (let i = 0; i < src.length; i++ ) {
-    if (src[i]) return true
+function reduceToAnyTrue(sourceArray) {
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    if (sourceArray[i]) return true
   }
   return false
 }
