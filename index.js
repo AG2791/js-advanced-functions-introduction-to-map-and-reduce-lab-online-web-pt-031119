@@ -15,7 +15,6 @@ function mapToNegativize(src) {
   return r
 }
 
-
 function mapToNoChange(sourceArray) {
   let array = []
   for (let i = 0; i < sourceArray.length; i++) {
